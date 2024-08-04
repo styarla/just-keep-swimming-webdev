@@ -33,16 +33,16 @@ It's like having a life raft in a stormy sea. It might not stop the waves, but i
 
       <section class="sectioncls">
         <h1>What is the need to Just Keep Swimming?</h1>
-        <div>
+        <div class="div">
           Mental Health and Well-Being
         </div>
-        <div>
+        <div class="div">
           Better Physical Health
         </div>
-        <div>
+        <div class="div">
           Improved Productivity and Performance
         </div>
-        <div>
+        <div class="div">
           Stronger Resilience and Adaptability
         </div>
       </section>
@@ -56,16 +56,16 @@ It's like having a life raft in a stormy sea. It might not stop the waves, but i
 
       <section class="sectioncls">
         <h1>How to Replace your Negative Thoughts?</h1>
-        <div>
+        <div class="div">
           Identify your negative thoughts
         </div>
-        <div>
+        <div class="div">
           Recognise a Pattern
         </div>
-        <div>
+        <div class="div">
           Practice Positivity through Replacement
         </div>
-        <div>
+        <div class="div">
           Reflecting upon success
         </div>
       </section>
@@ -83,6 +83,29 @@ In this process I learnt that you can't predict what's going to happen. The only
         <p>When life throws you off course, when the challenges seem insurmountable, remember those three simple words: "Just keep swimming." 
           </p>
       </blockquote>
+
+      <section>
+        <h1>Click on the bell for Notifications</h1>
+        <div id="suprsend-inbox"></div>
+
+<script type="text/javascript">
+  function initializeSuprSend(distinctId, subscriberId) {
+    window.suprSendConfig = {
+      workspaceKey: "your_workspace_key",
+      distinctId: distinctId,
+      subscriberId: subscriberId,
+    };
+
+    let scriptElem = document.createElement("script");
+    scriptElem.async = 1;
+    scriptElem.src =
+      "https://web-inbox-assets.suprsend.com/v0.3.0.js";
+    document.body.appendChild(scriptElem);
+  }
+
+  initializeSuprSend("your_distinct_id", "your_subscriber_id");
+</script>
+      </section>
 
     </main>
     <script type="module" src="/main.js"></script>

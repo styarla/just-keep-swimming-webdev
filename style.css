@@ -83,7 +83,7 @@ canvas {
     display: grid;
 }
 
-div{
+.div{
   border: 1px solid #fff;
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
