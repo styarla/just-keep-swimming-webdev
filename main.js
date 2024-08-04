@@ -41,10 +41,10 @@ scene.add(pointLight, ambientLight);
 
 //const controls = new THREE.OrbitControls( camera, renderer.domElement);
 
-const skyTexture = new THREE.TextureLoader().load('findingnemo.jpeg');
+const skyTexture = new THREE.TextureLoader().load('/findingnemo.jpeg');
 scene.background = skyTexture;
 
-const towerTexture = new THREE.TextureLoader().load('findingnemofish.jpeg');
+const towerTexture = new THREE.TextureLoader().load('/findingnemofish.jpeg');
 const tower = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
   new THREE.MeshBasicMaterial({map: towerTexture})
